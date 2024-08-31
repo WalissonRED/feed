@@ -41,11 +41,11 @@ Crie um arquivo .env baseado no .env.example e adicione as chaves necessárias p
 Build e execução do Docker:
 
 docker build -t feed-rocketseat-bombado .
-docker run -d -p 3000:3000 feed-rocketseat-bombado
+docker run -d -p 80:80 feed-rocketseat-bombado
 
 ## Acesse a aplicação:
 
-A aplicação estará disponível em http://localhost:3000.
+A aplicação estará disponível em http://localhost:80:80.
 
 ## 🤝 Contribuições
 Sinta-se à vontade para abrir issues ou enviar pull requests. Todas as contribuições são bem-vindas!
