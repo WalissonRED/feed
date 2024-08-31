@@ -1,4 +1,4 @@
-# Feed Rocketseat Bombado 🚀
+# Feed Rocket Bombado 🚀
 
 Este projeto é uma aplicação avançada de feed, desenvolvida para demonstrar o uso de tecnologias modernas e práticas recomendadas em desenvolvimento web. O objetivo é criar uma experiência rica e otimizada para o usuário final, com foco em performance, segurança e escalabilidade.
 
