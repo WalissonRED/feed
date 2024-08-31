@@ -1,0 +1,99 @@
+.loginContainer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .loginImage {
+    background-color: var(--gray-800);
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .loginForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-900);
+  }
+  
+  .formContainer {
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+  }
+  
+  .formHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formHeader h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+  
+  .formHeader p {
+    color: var(--gray-400);
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: var(--gray-100);
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--gray-600);
+    border-radius: 4px;
+    background-color: var(--gray-800);
+    color: var(--white);
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--green-500);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .loginButton:hover {
+    background-color: var(--green-300);
+  }
+  
+  .createAccountButton {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--gray-700);
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .createAccountButton:hover {
+    background-color: var(--gray-600);
+  }

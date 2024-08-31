@@ -2,7 +2,9 @@ import styles from './Comment.module.css';
 
 import { ThumbsUp, Trash } from 'phosphor-react';
 
-export function Comment() {
+import PropTypes from 'prop-types';
+
+export function Comment({content}) {
   return (
     <div className={styles.comment}>
       <img src="https://github.com/diego3g.png" alt="" />
@@ -19,8 +21,7 @@ export function Comment() {
               <Trash size={24} />
             </button>
           </header>
-
-          <p>Muito bom Devon, parabéns!! 👏👏</p>
+        <p>{content}</p>
         </div>
 
         <footer>
@@ -32,4 +33,8 @@ export function Comment() {
       </div>
     </div>
   )
+}
+
+Comment.propTypes = {
+  content: PropTypes.string
 }
